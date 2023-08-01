@@ -40,3 +40,20 @@ $(document).keypress(function(event){
 $("h1").on("mouseover",function(){
     $("h1").css("color","green");
 });
+
+// $("h1").before("<button>New</button>");
+// $("h1").after("<button>New</button>");
+// $("h1").prepend("<button>New</button>");//inside h1 before text
+// $("h1").append("<button>New</button>");//inside h1 after text
+//  $("button").remove();
+
+
+$("button").click(function(){
+    // $("h1").slideToggle(); //$("h1").slideUp(); //$("h1").slideDown();
+    //$("h1").fadeToggle(); //$("h1").fadeOut(); //$("h1").fadeIn();
+    //$("h1").toggle(); //$("h1").hide(); //$("h1").show();
+
+
+    $("h1").animate({opacity:0.5});//customize animation with numerical value only
+    $("h1").slideUp().slideDown().animate({opacity:0.5});//chain animation
+});
