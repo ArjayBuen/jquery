@@ -1,5 +1,5 @@
 // $("h1").css("color","red");
-//$("button");
+//$("button"); no differences in one or more
 // console.log($("h1").css("color"));
 // $("h1").css("font-size");
 
@@ -14,7 +14,7 @@ $("button").html("<em>Hey</em>");
 
 // console.log($("img").attr("src"));
 // $("a").attr("href", " to change link");
-
+//$("h1").attr("class");
 $("h1").click(function(){
     $("h1").css("color","white");
 });
